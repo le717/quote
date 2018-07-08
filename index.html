@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"""""quote"""""</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:700,700i">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- GitHub: le717/quote -->
+</head>
+
+<body>
+  <header>
+    <h1><em>"""""quote"""""</em></h1>
+    <h2>For the times in your life when you <em>really</em> want to emphasize what was """""said"""""</h2>
+  </header>
+
+  <div class="box num">
+    <h3>Number of quotes</h3>
+    <input type="number" name="quote-num" id="quote-num" min="1" value="5">
+  </div>
+
+  <main>
+    <div class="box">
+      <h3>Text to quote</h3>
+      <textarea name="quote" id="quote" cols="50" rows="15" placeholder="Quote what was said"></textarea>
+    </div>
+    <div class="box">
+      <h3>Quoted text <small>(click to copy)</small></h3>
+      <div id="quoted" data-clipboard-text=""></div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.1/clipboard.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

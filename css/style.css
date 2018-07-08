@@ -53,6 +53,7 @@ textarea { width: 100%; }
 #quoted {
   font-size: 1.2em;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 780px) {
